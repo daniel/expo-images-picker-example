@@ -3131,13 +3131,19 @@ expo-font@~8.4.0:
     fbjs "1.0.0"
     fontfaceobserver "^2.1.0"
 
-expo-images-picker@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/expo-images-picker/-/expo-images-picker-1.1.0.tgz#7c01355587f5f5b6ce3fbed57668c2ceee555adb"
-  integrity sha512-O9GQdvuTdsoKuDB8sNGqIn9w3rgpz45ZLacrhan3Ur8AJ6wK1rJZKZ0RHHZEmm2f9tiqGEGABhNXyFw9yM2ajw==
+expo-image-manipulator@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/expo-image-manipulator/-/expo-image-manipulator-9.0.0.tgz#0b6ad350b79e40a44164b6333e806a2ef6fc9708"
+  integrity sha512-hziIcUONz7JtsonEehuYvXk8xCSGDHR6A4ynZcUTbZQCzxWYu7Xq2wahREz/DBdu0vz0LBw38wFLuSpfgaFojQ==
+
+expo-images-picker@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/expo-images-picker/-/expo-images-picker-1.3.0.tgz#1f3d6c4b512095cda934f47c8ce93cd0673d9eac"
+  integrity sha512-XVKeyp8JgRYBD6azXQqkS7rB9+vRoSTQ2jCtOI90jgZ7+Vql5IFQyN4aDdWMqypMTwNlfxq0rQK6r7KBXAGlow==
   dependencies:
-    expo-media-library "~8.2.1"
-    expo-permissions "~9.0.1"
+    expo-image-manipulator "^9.0.0"
+    expo-media-library "~10.0.0"
+    expo-permissions "~10.0.0"
     styled-components "^5.1.1"
 
 expo-keep-awake@~8.4.0:
@@ -3170,20 +3176,10 @@ expo-media-library@~10.0.0:
   resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-10.0.0.tgz#44ab985fa684a9cf5b23d50ac5874b61bfe779c7"
   integrity sha512-/edgaLU8ClYEgwmiMknpNbkouTNZlL/FNAxcSpPlTmXuRAqd2YmE5BpNOe1demDrR1VWTrZ8/ekS/RwQAWQU2g==
 
-expo-media-library@~8.2.1:
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-8.2.1.tgz#2296298dfcf2b19b56c201cb62b2b67c197bede0"
-  integrity sha512-V0XDewHE7MFgwNAUZlruAabMCxM9uf9FfmgKIcoolWq/HGTC0GmwqN1QZIrKEejkqQLJWbUP8HoBWGx7IXz3ng==
-
 expo-permissions@~10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-10.0.0.tgz#5b31c54d561d00c7e46cd02321bc3704c51c584b"
   integrity sha512-b6oitd4JmFdQ7DxczZ2WRS9aDyqgVM7lEhy3JyKZ2dbU19C6NyHyLCcwssZgfzOfGnp2owoaWn3KU4zdrF5MIA==
-
-expo-permissions@~9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-9.0.1.tgz#dc10b58654bbe39bbbed5827369942b01b08055e"
-  integrity sha512-CosJgy8XQRN/OFG2JTQDcFxz3XTGi27coCMym/hVXWtQfk0z6PwdRG5IXHfLGuSckwIcgmirrwm2+Zc0X3MmNg==
 
 expo-secure-store@~9.3.0:
   version "9.3.0"
